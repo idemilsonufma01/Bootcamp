@@ -1,0 +1,50 @@
+h1 {
+    display: flex;
+    justify-content: center;
+}
+#formulario {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.tarefa {
+    height: 20px;
+    border: 1px solid gray;
+}
+
+button {
+    height: 25px;
+    margin-left: 4px;
+}
+
+.container {
+    display: flex;
+    width: 200vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    border: 1px solid black;
+}
+
+.checkbox {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+   
+}
+
+#blocoInput {
+    display: flex;
+    
+}
+#blocoDiv {
+    flex-direction: column;
+}
+.label > input:checked + div {
+    text-decoration: line-through;
+    color: grey;
+  }
